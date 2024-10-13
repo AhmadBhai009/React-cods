@@ -1,0 +1,71 @@
+.App {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+header {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+header > p {
+  margin-left: 10px;
+}
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style-type: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-right: 10px;
+}
+main {
+  /* border: 1px solid blue; */
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.render {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+section {
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.cart {
+  border: 1px solid rgb(14, 13, 13);
+
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cart img {
+  width: 100%;
+  object-fit: cover;
+}
+.Summer {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+
+  width: 100%;
+}
+footer {
+  margin-top: 6px;
+  padding: 15px;
+  background-color: gray;
+}
